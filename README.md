@@ -2,6 +2,9 @@
 专为 MSUI 前端框架定制的二级分类选择插件
 > 由于项目中要用到异步加载分类，msui库中没有合适的分类选择插件，所以便编写了次简易分类选择插件，很多地方还需要修改，希望可以改成一个通用的分类选择插件
 
+##效果演示
+![效果演示](https://github.com/jacobcyl/sui_cator/blob/master/sui_cator.gif)
+
 ##依赖
 > - [Zepto.js](https://github.com/madrobby/zepto)
 > - [MSUI](https://github.com/sdc-alibaba/SUI-Mobile)
