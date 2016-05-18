@@ -26,21 +26,21 @@
   }
 ```
 - 数据格式
-```
-[
-  {
-    name: 'name',
-    id: 'id',
-    children:[
-      {
-        name: 'name',
-        id: 'id',
-      },
-      ...
-    ]
-  },
-  ...
-]
+```javascript
+  [
+    {
+      name: 'name',
+      id: 'id',
+      children:[
+        {
+          name: 'name',
+          id: 'id',
+        },
+        ...
+      ]
+    },
+    ...
+  ]
 ```
 - 初始化
 ```javascript
