@@ -1,0 +1,79 @@
+.search-result{
+    position: absolute;
+    background: whitesmoke;
+    height: 100%;
+    width: 100%;
+}
+.cate-container{
+    margin: 2rem 4% .5rem 0;
+}
+.cate-selector{
+    background: whitesmoke;
+    height: 100%;
+}
+.cate-selector .cate-parent {
+    background-color: #f1f0ee;
+    border-right: 1px solid #d7d3d1;
+    float: left;
+    width: 4rem;
+}
+.cate-selector .cate-parent a {
+    border-bottom: 1px solid #d7d3d1;
+    color: #282828;
+    display: block;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+}
+.cate-selector .cate-parent a.on {
+    background-color: #ff7326;
+    color: #fff;
+}
+.cate-selector .cate-sub {
+    margin: 0 .2rem 0 4.5rem;
+}
+.cate-selector .cate-sub .cate-item, .search-result .cate-item{
+    background-color: #fff;
+    border: 1px solid #d7d3d1;
+    border-radius: 4px;
+    height: 1.7rem;
+    line-height: 1.7rem;
+    font-size: .6rem;
+    margin-bottom: .5rem;
+    text-align: center;
+}
+.cate-selector .cate-sub .cate-sub-hub{
+    padding-top: .5rem;
+}
+.cate-selector .cate-sub ul dt {
+    border-left: 3px solid #ff861c;
+    height: 1rem;
+    line-height: 1rem;
+    padding-left: .2rem;
+}
+.cate-selector .cate-sub  ul dd {
+    margin-top: .5rem;
+    overflow: hidden;
+}
+.cate-selector .cate-sub ul dd a.on, .cate-container a.on{
+    background-color: #ff7326;
+    border: 1px solid #ff7326;
+    color: #fff;
+}
+.off{
+    display: none;
+}
+.text-overflow {
+    display:block;
+    width:31em;
+    word-break:keep-all;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.search-close{
+    color: #000;
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
+}
